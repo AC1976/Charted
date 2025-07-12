@@ -4,7 +4,9 @@
 
 Charted is a powerful Flask-based SaaS application that transforms Excel data into beautiful, interactive organizational charts. Perfect for visualizing complex corporate hierarchies, ownership structures, and reporting relationships.
 
-![Charted Demo](https://charted-mev3.onrender.com) ![License](https://img.shields.io/badge/License-MIT-blue) ![Python](https://img.shields.io/badge/Python-3.8+-blue) ![Flask](https://img.shields.io/badge/Flask-2.3+-red)
+Demo at https://charted-mev3.onrender.com
+
+![License](https://img.shields.io/badge/License-MIT-blue) ![Python](https://img.shields.io/badge/Python-3.8+-blue) ![Flask](https://img.shields.io/badge/Flask-2.3+-red)
 
 ## ✨ Key Features
 
