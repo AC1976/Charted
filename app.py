@@ -300,4 +300,8 @@ def reset_data():
         return jsonify({"error": f"Reset failed: {str(e)}"}), 500
 
 if __name__ == '__main__':
+    # For development
     app.run(debug=True)
+else:
+    # For production (Gunicorn)
+    app.secret_key = os.environ.get('SECRET_KEY', 'your_secret_key_change_this_in_production')
