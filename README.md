@@ -48,7 +48,7 @@ Charted is a powerful Flask-based SaaS application that transforms Excel data in
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/charted.git
+git clone https://github.com/AC1976/charted.git
 cd charted
 ```
 
@@ -72,13 +72,13 @@ http://localhost:5000
 Charted expects three types of Excel files:
 
 ### 🏢 **Entity Data**
-Required columns (can be mapped from your Excel):
+Required columns (can be mapped from your Excel with custom field names on upload):
 - `ENTITY_ID`: Unique identifier (numbers or text)
 - `ENTITY_NAME`: Legal company name
 - `ENTITY_TAX_JURISDICTION`: Tax jurisdiction (optional)
 
 ### 🔗 **Ownership Data** 
-Required columns:
+Required columns (can be mapped from your Excel with custom field names on upload):
 - `PARENT_ID`: Entity ID of the shareholder
 - `CHILD_ID`: Entity ID of the subsidiary
 - `OWNERSHIP_PERC`: Ownership percentage (0-100)
@@ -255,4 +255,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Charted** - Making organizational structures visual and interactive.
 
-*Built with ❤️ for corporate structure analysis*
+*Built with ❤️ by Claude A.I. and A.C. van der Linde*
